@@ -1,0 +1,247 @@
+@font-face {
+    font-family: "starwars";
+    src: url('../fonts/Starjedi.ttf');
+}
+
+@font-face {
+    font-family: "coolvetica";
+    src: url('../fonts/coolvetica\ rg.otf');
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body html {
+    height: 100%;
+
+
+
+}
+
+#image-fond {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    filter: brightness(0.5);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+
+}
+
+.title{
+    position: absolute;
+    color: white;
+    font-family: "starwars";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    top: 5%;
+    left: 40%;
+}
+
+.title2{
+    position: absolute;
+    color: white;
+    font-family: "starwars";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    top: 13%;
+    left: 30%;
+}
+
+
+
+h2 {
+    position: absolute;
+    color: white;
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+
+}
+
+.j1 {
+    top: 30%;
+    left: 10%;
+   text-align: center;
+
+}
+
+#joueur1{
+    color: rgb(0, 13, 255);
+}
+
+.j2 {
+    top: 30%;
+    right: 10%;
+    text-align: center;
+}
+
+
+#joueur2{
+    color: rgb(255, 0, 0);
+}
+
+
+#global-bar-progression-j1 {
+    position: absolute;
+    top: 55%;
+    left: 32%;
+    transform: rotate(25deg);
+}
+
+#container-bar-progression-j1 {
+    width: 50px;
+    height: 244px;
+    /* background-color: red; */
+
+
+}
+
+#line-bar-progressJ1 {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+
+}
+
+#line-progressJ1 {
+    transition: 0.200s ease-in-out ;
+    width: 22px;
+    height: 0px;
+    background-color: #000dff;
+    border-radius: 10px 10px 0px 0px;
+    filter: drop-shadow(0px 10px 10px rgb(0, 13, 255));
+}
+
+#sabre-bar-progressJ1 {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#global-bar-progression-j2 {
+    position: absolute;
+    top: 55%;
+    right: 32%;
+    transform: rotate(-25deg);
+}
+
+#container-bar-progression-j2 {
+    width: 50px;
+    height: 244px;
+    /* background-color: red; */
+
+
+}
+
+#line-bar-progress-j2 {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    
+}
+
+#line-progress-j2 {
+    
+    transition: 0.200s ease-in-out ;
+    width: 22px;
+    height: 0px;
+    background-color: #ff0000;
+    border-radius: 10px 10px 0px 0px;
+    filter: drop-shadow(0px 10px 10px #dd4444);
+    
+
+}
+
+#sabre-bar-progress-j2 {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+
+}
+
+.fond-pop-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.h1Winner{
+    position: absolute;
+    
+    top: 30%;
+    text-align: center;
+    font-family: "starwars";
+    
+}
+
+.h3Winner{
+    position: absolute;
+    color: white;
+    top: 38%;
+    text-align: center;
+    font-family: "coolvetica";
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+
+.global-pop-up{
+    background-color: rgba(0, 0, 0, 0.699);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: none;
+}
+
+
+button.replay {
+    background-color: #555555; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    padding: 10px 20px; /* Espacement interne */
+    border: none; /* Enlever les bordures */
+    font-family: "starwars";
+    border-radius: 5px; /* Coins arrondis */
+    font-size: 16px; /* Taille du texte */
+    font-weight: bold; /* Texte en gras */
+    cursor: pointer; /* Curseur de la souris */
+    transition: transform 0.2s; /* Transition pour les effets d'hover */
+}
+
+button.replay:hover {
+    background-color: #3d3d3d; /* Couleur de fond lors du survol */
+    transform: scale(1.05); /* Léger agrandissement au survol */
+}
+
+

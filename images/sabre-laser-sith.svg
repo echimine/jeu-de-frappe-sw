@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 91.31 344.44">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #cbcad0;
+      }
+
+      .cls-2 {
+        fill: #1d1d1b;
+      }
+
+      .cls-3 {
+        fill: #9a9da2;
+      }
+
+      .cls-4 {
+        fill: #d7e5de;
+      }
+
+      .cls-5 {
+        fill: #e65869;
+      }
+    </style>
+  </defs>
+  <rect class="cls-2" x="80.25" y="149.72" width="11.06" height="34.41"/>
+  <rect class="cls-4" x="66.94" y="149.72" width="13.31" height="34.41"/>
+  <polygon class="cls-3" points="55.88 68.82 55.88 138.61 22.88 138.61 22.88 80.44 33.75 80.44 33.75 68.82 55.88 68.82"/>
+  <rect class="cls-5" x="45.38" y="80.82" width="10.5" height="22.9"/>
+  <rect class="cls-2" x="45.38" y="114.38" width="10.5" height="12.23"/>
+  <rect class="cls-1" x="33.94" y="196.51" width="12" height="137.25"/>
+  <rect class="cls-3" x="57" y="195.76" width="6.47" height="138"/>
+  <rect class="cls-3" x="16.03" y="195.76" width="6.85" height="138"/>
+  <path class="cls-2" d="M80.25,149.72v-13.31h-13.31V46.36h-11.06v-11.25h-11.07v-11.39h-11.06v-12.65h-11.06V0h-12.38v34.4H.1v22.9h10.21v11.52H0v22.9h10.31v103.66h-5.53v138h5.53v11.06h58.5v-10.31h5.54v-136.69h5.9v-13.31h-13.31v-34.41h13.31ZM22.69,333.38h-6.85v-138h6.85v138ZM45.75,333.38h-12v-137.25h12v137.25ZM55.88,138.61H22.69v-58.17h11.06v-11.62h22.13v69.79ZM63.28,333.38h-6.47v-138h6.47v138Z"/>
+</svg>
